@@ -21,8 +21,8 @@ namespace ConsoleProgressBar
 
             using (var progressBar = new ConsoleProgressBar(
                 totalUnitsOfWork: 2000,
-                startingPosition: 10,
-                widthInCharacters: 65,
+                startingPosition: 3,
+                widthInCharacters: 48,
                 completedColor: ConsoleColor.DarkBlue,
                 remainingColor: ConsoleColor.DarkGray))
             {
