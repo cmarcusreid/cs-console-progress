@@ -1,6 +1,8 @@
 # cs-console-progress
 Simple C# console progress bar for reuse in console applications.
 
+![Sample progress bar](https://github.com/cmarcusreid/cs-console-progress/blob/master/progressBarSample.png "Sample progress bar")
+
 ## ConsoleProgressBar ##
 
 ##### ConsoleProgressBar.#ctor(UInt32, Int32, UInt32, ConsoleColor, ConsoleColor)
