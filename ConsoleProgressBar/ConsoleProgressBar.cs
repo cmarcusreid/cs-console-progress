@@ -61,7 +61,7 @@ namespace ConsoleProgressBar
         /// <summary>
         /// Draws progress bar.
         /// </summary>
-        /// <Param name="currentUnitOfWork">Current unit of work in relation to TotalUnitsOfWork.</Param>
+        /// <param name="currentUnitOfWork">Current unit of work in relation to TotalUnitsOfWork.</param>
         public void Draw(uint currentUnitOfWork)
         {
             if (currentUnitOfWork > TotalUnitsOfWork)
