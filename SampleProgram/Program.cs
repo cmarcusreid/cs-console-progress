@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Threading;
+using ConsoleGraphics;
 
-namespace ConsoleProgressBar
+namespace SampleProgram
 {
     /// <summary>
     /// Simple program with sample usage of ConsoleProgressBar.
     /// </summary>
-    class Program
+    public class Program
     {
         public static void Main(string[] args)
         {

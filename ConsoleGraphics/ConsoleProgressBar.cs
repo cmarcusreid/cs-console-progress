@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace ConsoleProgressBar
+namespace ConsoleGraphics
 {
-    class ConsoleProgressBar : IDisposable
+    public class ConsoleProgressBar : IDisposable
     {
         private const char ProgressBlockCharacter = ' ';
         private readonly float _unitsOfWorkPerProgressBlock;
