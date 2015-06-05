@@ -75,7 +75,7 @@ namespace ConsoleProgressBar
 
             try
             {
-                var completeProgressBlocks = (uint) (currentUnitOfWork / _unitsOfWorkPerProgressBlock);
+                var completeProgressBlocks = (uint) Math.Round(currentUnitOfWork / _unitsOfWorkPerProgressBlock);
                 WriteCompletedProgressBlocks(completeProgressBlocks);
                 WriteRemainingProgressBlocks(completeProgressBlocks);
 
