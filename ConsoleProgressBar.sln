@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleProgram", "SampleProgram\SampleProgram.csproj", "{8529B31D-6E69-484F-9564-38DB347F4620}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleGraphics", "ConsoleGraphics\ConsoleGraphics.csproj", "{0F1D46EF-F814-4D44-BBCC-4C16D998865B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleGraphicsCore", "ConsoleGraphicsCore\ConsoleGraphicsCore.csproj", "{1EEC40CC-8AAC-407C-A7AA-E81D30A846D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +23,15 @@ Global
 		{0F1D46EF-F814-4D44-BBCC-4C16D998865B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F1D46EF-F814-4D44-BBCC-4C16D998865B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F1D46EF-F814-4D44-BBCC-4C16D998865B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EEC40CC-8AAC-407C-A7AA-E81D30A846D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EEC40CC-8AAC-407C-A7AA-E81D30A846D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EEC40CC-8AAC-407C-A7AA-E81D30A846D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EEC40CC-8AAC-407C-A7AA-E81D30A846D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D4BF057-F9EC-4845-B166-C75862D819CB}
 	EndGlobalSection
 EndGlobal

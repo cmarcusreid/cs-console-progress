@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/gornialberto/cs-console-progress</RepositoryUrl>
+    <PackageLicenseUrl>https://github.com/cmarcusreid/cs-console-progress/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Company />
+    <Authors>cmarcusreid</Authors>
+    <PackageTags>AddETA</PackageTags>
+    <PackageProjectUrl>https://github.com/cmarcusreid/cs-console-progress</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\ConsoleGraphics\ConsoleProgressBar.cs" Link="ConsoleProgressBar.cs" />
+  </ItemGroup>
+
+</Project>
