@@ -167,7 +167,15 @@ namespace ConsoleGraphics
         private void WriteETA(TimeSpan eta, ConsoleColor originalBackgroundColor)
         {
             Console.BackgroundColor = originalBackgroundColor;
-            Console.Write(" {0} hour(s) {1} minute(s)", Math.Floor(eta.TotalHours), eta.Minutes);
+            
+            if (eta < TimeSpan.FromMinutes(1))
+            {
+                Console.Write(" Less than a minute");
+            }
+            else
+            {
+                Console.Write(" {0} hour(s) {1} minute(s)", Math.Floor(eta.TotalHours), eta.Minutes);
+            }
         }
 
         /// <summary>
